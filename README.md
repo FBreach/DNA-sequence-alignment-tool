@@ -3,6 +3,7 @@ DNA Sequence Alignment Tool
 This Python script performs optimal DNA sequence alignment using dynamic programming. The script calculates the best possible alignment between two DNA sequences by considering match scores, mismatch penalties, and gap penalties.
 
 
+
 Features
 
 • 	Dynamic Scoring Matrix: Utilizes a dynamic programming matrix to calculate the optimal alignment scores.
@@ -10,6 +11,7 @@ Features
 • 	Backtracking for Alignment: Determines the best alignment path by backtracking through the scoring matrix.
 
 •	Efficient Computations: Optimized with NumPy for efficient array operations and designed to minimize computational overhead.
+
 
 
 Requirements
@@ -24,6 +26,7 @@ Ensure that you have the latest version of Python and the required packages inst
 
 
 
+
 Usage
 
 The script reads two DNA sequences from files, aligns them, and prints the optimal alignment along with its score and the time taken for the computation.
@@ -35,6 +38,7 @@ The script reads two DNA sequences from files, aligns them, and prints the optim
 python dna_alignment.py path_to_sequence1.txt path_to_sequence2.txt 
 
 
+
 Example Files
 
  •	sequence1.txt: Contains the DNA sequence for sequence1.
@@ -42,6 +46,7 @@ Example Files
  •	sequence2.txt: Contains the DNA sequence for sequence2.
 
 Ensure that these files are in the same directory as the script or provide the full path.
+
 
 
 Output
