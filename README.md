@@ -6,14 +6,18 @@ This Python script performs optimal DNA sequence alignment using dynamic program
 Features
 
 • 	Dynamic Scoring Matrix: Utilizes a dynamic programming matrix to calculate the optimal alignment scores.
+
 • 	Backtracking for Alignment: Determines the best alignment path by backtracking through the scoring matrix.
+
 •	Efficient Computations: Optimized with NumPy for efficient array operations and designed to minimize computational overhead.
 
 
 Requirements
 
 •	Python 3.x
+
 •	NumPy
+
 •	Numba
 
 Ensure that you have the latest version of Python and the required packages installed. You can install NumPy and Numba using pip:
