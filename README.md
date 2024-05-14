@@ -4,7 +4,7 @@ This Python script performs optimal DNA sequence alignment using dynamic program
 
 
 
-Features
+Features:
 
 • 	Dynamic Scoring Matrix: Utilizes a dynamic programming matrix to calculate the optimal alignment scores.
 
@@ -14,7 +14,7 @@ Features
 
 
 
-Requirements
+Requirements:
 
 •	Python 3.x
 
@@ -27,7 +27,7 @@ Ensure that you have the latest version of Python and the required packages inst
 
 
 
-Usage
+Usage:
 
 The script reads two DNA sequences from files, aligns them, and prints the optimal alignment along with its score and the time taken for the computation.
 
@@ -39,7 +39,7 @@ python dna_alignment.py path_to_sequence1.txt path_to_sequence2.txt
 
 
 
-Example Files
+Example Files:
 
  •	sequence1.txt: Contains the DNA sequence for sequence1.
 
@@ -49,7 +49,7 @@ Ensure that these files are in the same directory as the script or provide the f
 
 
 
-Output
+Output:
 
 The script will display:
 
